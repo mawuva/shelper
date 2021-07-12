@@ -1,4 +1,6 @@
-source ./aliases.sh
-source ./functions.sh
-source ./git.helper.sh
-source ./laravel.helper.sh
+# Include all scripts
+# 
+source ~/shelper/aliases.sh
+source ~/shelper/functions.sh
+source ~/shelper/git.helper.sh
+source ~/shelper/laravel.helper.sh
