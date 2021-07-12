@@ -1,5 +1,7 @@
 #Laravel helper
 alias artisan='php artisan'
+alias art='php artisan'
+alias art-m='php artisan make:'
 alias bob='php artisan bob::build'
 
 # Development
