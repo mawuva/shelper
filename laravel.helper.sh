@@ -39,3 +39,27 @@ alias paql='php artisan queue:listen'
 alias paqr='php artisan queue:retry'
 alias paqt='php artisan queue:table'
 alias paqw='php artisan queue:work'
+
+# New laravel installation
+alias larapro='composer create-project laravel/laravel'
+alias laranew='laravel new'
+
+# create laravel project and then navigate into it
+laraprocd () {
+  composer create-project laravel/laravel -- "$1" && cd -- "$1"
+}
+
+# create laravel project, navigate into it and init git repo
+initlarapro () {
+  composer create-project laravel/laravel -- "$1" && cd -- "$1" && git init
+}
+
+# create a laravel and then navigate into it
+laranewcd () {
+  laravel new -- "$1" && cd -- "$1"
+}
+
+# create a laravel then navigate into it and init git repo
+initlaranew () {
+  laravel new -- "$1" && cd -- "$1" && git init
+}

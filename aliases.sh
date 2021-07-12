@@ -24,6 +24,8 @@ alias l="ls -al"
 alias lf="ls -aFG"
 alias lm="ls -al|more"
 
+## Personal aliases
 alias web="cd /home/novascript/codes/web"
 alias codes="cd /home/novascript/codes"
+alias shelper="cd /home/novascript/shelper"
 
