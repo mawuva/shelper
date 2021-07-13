@@ -11,12 +11,16 @@ PASS=''
 
 function db {
   if [ "$1" = "connect" ]; then
-    mysql -uroot
+    mysql -u$USER
   elif [ "$1" = "refresh" ]; then
-    mysql -uroot -e "drop database $2; create database $2"
+    mysql -u$USER -e "drop database $2; create database $2"
   elif [ "$1" = "create" ]; then
-    mysql -uroot -e "create database $2"
+    mysql -u$USER -e "create database $2"
   elif [ "$1" = "drop" ]; then
-    mysql -uroot -e "drop database $2"
+    mysql -u$USER -e "drop database $2"
+  elif [ "$1" = "databases" ]; then
+    mysql -u$USER -e "show databases"
+  elif [ "$1" = "structure" ] || [ "$1" = "struct" ] ; then
+    mysql -u$USER -e "use $2; show tables;"
   fi
 }
