@@ -276,6 +276,8 @@ alias gsu='git submodule update'
 alias gsw='git switch'
 alias gswc='git switch -c'
 
+alias gt='git tag'
+alias gta='git tag -a'
 alias gts='git tag -s'
 alias gtv='git tag | sort -V'
 alias gtl='gtl(){ git tag --sort=-v:refname -n -l "${1}*" }; noglob gtl'
