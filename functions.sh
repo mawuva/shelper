@@ -24,3 +24,12 @@ function db {
     mysql -u$USER -e "use $2; show tables;"
   fi
 }
+
+## Switch between php versions
+function php-version {
+  if [ -n "$1" ]; then
+    sudo update-alternatives --set php /usr/bin/php"$1"
+  else
+    echo "First parameter that should be the version is not supplied."
+  fi
+}

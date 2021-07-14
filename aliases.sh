@@ -29,3 +29,4 @@ alias web="cd /home/novascript/codes/web"
 alias codes="cd /home/novascript/codes"
 alias shelper="cd /home/novascript/shelper"
 
+
