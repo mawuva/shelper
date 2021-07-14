@@ -27,6 +27,8 @@ alias paml='php artisan make:listener'
 alias pamn='php artisan make:notification'
 alias pampp='php artisan make:provider'
 alias pamcp='php artisan make:component'
+alias pamrq='php artisan make:request'
+alias pamrs='php artisan make:resource'
 
 
 # Clears
