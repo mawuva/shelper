@@ -26,6 +26,7 @@ alias pamj='php artisan make:job'
 alias paml='php artisan make:listener'
 alias pamn='php artisan make:notification'
 alias pampp='php artisan make:provider'
+alias pamcp='php artisan make:component'
 
 
 # Clears
