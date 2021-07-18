@@ -1,7 +1,7 @@
 #Laravel helper
 alias artisan='php artisan'
 alias art='php artisan'
-alias art-m='php artisan make:'
+alias art-m='php artisan make:$1'
 alias bob='php artisan bob::build'
 
 # Development
@@ -29,6 +29,7 @@ alias pampp='php artisan make:provider'
 alias pamcp='php artisan make:component'
 alias pamrq='php artisan make:request'
 alias pamrs='php artisan make:resource'
+alias pammg='php artisan make:migration'
 
 
 # Clears
