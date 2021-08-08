@@ -1,7 +1,7 @@
 #Laravel helper
 alias artisan='php artisan'
 alias art='php artisan'
-alias art-m='php artisan make:$1'
+alias artm='php artisan make:'
 alias bob='php artisan bob::build'
 
 # Development
@@ -30,6 +30,7 @@ alias pamcp='php artisan make:component'
 alias pamrq='php artisan make:request'
 alias pamrs='php artisan make:resource'
 alias pammg='php artisan make:migration'
+alias pamex='php artisan make:exception'
 
 
 # Clears
@@ -71,3 +72,22 @@ function laranew {
     laravel new -- "$1" && cd -- "$1"
   fi
 }
+
+# nwidart module package command
+alias pamdm='php artisan module:make'
+alias pamdmm='php artisan module:make-model'
+alias pamdmc='php artisan module:make-controller'
+alias pamdms='php artisan module:make-seeder'
+alias pamdmt='php artisan module:make-test'
+alias pamdmfa='php artisan module:make-factory'
+alias pamdmp='php artisan module:make-policy'
+alias pamdme='php artisan module:make-event'
+alias pamdmj='php artisan module:make-job'
+alias pamdml='php artisan module:make-listener'
+alias pamdmn='php artisan module:make-notification'
+alias pamdmpp='php artisan module:make-provider'
+alias pamdmcp='php artisan module:make-component'
+alias pamdmrq='php artisan module:make-request'
+alias pamdmrs='php artisan module:make-resource'
+alias pamdmmg='php artisan module:make-migration'
+alias pamdmex='php artisan module:make-exception'
