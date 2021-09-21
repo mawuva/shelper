@@ -30,6 +30,6 @@ alias codes="cd /home/novascript/codes"
 alias shelper="cd /home/novascript/shelper"
 alias anastasis="cd /home/novascript/anastasis"
 alias anastacodes="cd /home/novascript/anastasis/codes"
-alias codeanas="cd /home/novascript/anastasis/codes"
+alias codanas="cd /home/novascript/anastasis/codes"
 
 
