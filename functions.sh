@@ -33,3 +33,12 @@ function php-version {
     echo "First parameter that should be the version is not supplied."
   fi
 }
+
+## Switch between php versions
+function switch-php {
+  if [ -n "$1" ]; then
+    sudo update-alternatives --set php /usr/bin/php"$1"
+  else
+    echo "First parameter that should be the version is not supplied."
+  fi
+}
