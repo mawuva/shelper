@@ -31,6 +31,7 @@ alias pamrq='php artisan make:request'
 alias pamrs='php artisan make:resource'
 alias pammg='php artisan make:migration'
 alias pamex='php artisan make:exception'
+alias pammdw='php artisan make:middleware'
 
 
 # Clears

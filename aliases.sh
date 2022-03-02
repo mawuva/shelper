@@ -25,11 +25,16 @@ alias lf="ls -aFG"
 alias lm="ls -al|more"
 
 ## Personal aliases
-alias web="cd /home/novascript/codes/web"
-alias codes="cd /home/novascript/codes"
-alias shelper="cd /home/novascript/shelper"
-alias anastasis="cd /home/novascript/anastasis"
-alias anastacodes="cd /home/novascript/anastasis/codes"
-alias codanas="cd /home/novascript/anastasis/codes"
+alias web="cd /home/novasprit/codes/web"
+alias codes="cd /home/novasprit/codes"
+alias shelper="cd /home/novasprit/shelper"
+alias anastasis="cd /home/novasprit/anastasis"
+alias anastacodes="cd /home/novasprit/anastasis/codes"
+alias codanas="cd /home/novasprit/anastasis/codes"
+
+## Switch python3 versions
+
+alias switch-python3="sudo update-alternatives --config python3"
+
 
 
