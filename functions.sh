@@ -22,6 +22,8 @@ function db {
     mysql -u$USER -e "show databases"
   elif [ "$1" = "structure" ] || [ "$1" = "struct" ] ; then
     mysql -u$USER -e "use $2; show tables;"
+  elif [ "$1" = "psql" ] || [ "$1" = "postgres" ]  || [ "$1" = "pgsql" ] ; then
+    sudo -i -u postgres
   fi
 }
 
